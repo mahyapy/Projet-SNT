@@ -1,28 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; /* Police sans-serif, comme Arial */
+    background-color: #87CEFA; /* Fond bleu clair */
+    color: #333333; /* Texte en gris foncé pour un bon contraste */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #4682B4; /* Fond bleu plus foncé pour le header */
+    color: white; /* Texte blanc pour le header */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: white; /* Couleur du texte des liens en blanc */
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none; /* Enlever le soulignement des liens */
 }
 
 nav a:hover {
-    background-color: #575757;
+    background-color: #5F9EA0; /* Couleur plus douce au survol (un bleu-gris) */
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    padding: 20px;
 }
+
