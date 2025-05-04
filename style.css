@@ -63,3 +63,10 @@ ul.menu a:hover {
     transform: scale(1.05);
 }
 
+.intro {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
